@@ -1,0 +1,6 @@
+framework module Pods_tuneZ_tuneZUITests {
+  umbrella header "Pods-tuneZ-tuneZUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

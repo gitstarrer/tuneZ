@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		069B650EE9485EA74BA00C3E /* Pods_tuneZ_tuneZUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A4F833861B0193A93189487 /* Pods_tuneZ_tuneZUITests.framework */; };
+		4B2A9B25263210FD0073353F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B2A9B24263210FD0073353F /* Main.storyboard */; };
+		4B2E71F0263087E50046DD2F /* artistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E71EF263087E50046DD2F /* artistManager.swift */; };
+		4B7491942631AD0700FC1F7D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B7491922631AD0700FC1F7D /* TableViewCell.swift */; };
+		4B7491952631AD0700FC1F7D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7491932631AD0700FC1F7D /* TableViewCell.xib */; };
+		4B8AF38326302E7F007FF852 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8AF38226302E7F007FF852 /* AppDelegate.swift */; };
+		4B8AF38526302E7F007FF852 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8AF38426302E7F007FF852 /* SceneDelegate.swift */; };
+		4B8AF38726302E7F007FF852 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8AF38626302E7F007FF852 /* ViewController.swift */; };
+		4B8AF38C26302E80007FF852 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8AF38B26302E80007FF852 /* Assets.xcassets */; };
+		4B8AF38F26302E80007FF852 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8AF38D26302E80007FF852 /* LaunchScreen.storyboard */; };
+		4B8AF39A26302E80007FF852 /* tuneZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8AF39926302E80007FF852 /* tuneZTests.swift */; };
+		4B8AF3A526302E80007FF852 /* tuneZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8AF3A426302E80007FF852 /* tuneZUITests.swift */; };
+		4B8AF3B626302EA1007FF852 /* iTunesConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8AF3B526302EA1007FF852 /* iTunesConnect.swift */; };
+		4B951B0926308C3900038624 /* artistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B951B0826308C3900038624 /* artistModel.swift */; };
+		4B951B1A2630CEDF00038624 /* artistData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B951B192630CEDF00038624 /* artistData.swift */; };
+		A83319B3810B9D5B41C0E100 /* Pods_tuneZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADAB6BC3811625693ED76366 /* Pods_tuneZ.framework */; };
+		CF818C249572DEDEC27BD09A /* Pods_tuneZTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E20142567C5275D8831CC29 /* Pods_tuneZTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8AF39626302E80007FF852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8AF37726302E7F007FF852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8AF37E26302E7F007FF852;
+			remoteInfo = tuneZ;
+		};
+		4B8AF3A126302E80007FF852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8AF37726302E7F007FF852 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8AF37E26302E7F007FF852;
+			remoteInfo = tuneZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21F943D6DC5FE86D56809631 /* Pods-tuneZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuneZ.release.xcconfig"; path = "Target Support Files/Pods-tuneZ/Pods-tuneZ.release.xcconfig"; sourceTree = "<group>"; };
+		30BAFCE35AB91263FB7CF7F9 /* Pods-tuneZ-tuneZUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuneZ-tuneZUITests.debug.xcconfig"; path = "Target Support Files/Pods-tuneZ-tuneZUITests/Pods-tuneZ-tuneZUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31FBE1348DB2D9908970BFE6 /* Pods-tuneZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuneZ.debug.xcconfig"; path = "Target Support Files/Pods-tuneZ/Pods-tuneZ.debug.xcconfig"; sourceTree = "<group>"; };
+		4B2A9B24263210FD0073353F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
+		4B2E71EF263087E50046DD2F /* artistManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artistManager.swift; sourceTree = "<group>"; };
+		4B7491922631AD0700FC1F7D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		4B7491932631AD0700FC1F7D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		4B8AF37F26302E7F007FF852 /* tuneZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tuneZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8AF38226302E7F007FF852 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B8AF38426302E7F007FF852 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B8AF38626302E7F007FF852 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8AF38B26302E80007FF852 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B8AF38E26302E80007FF852 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B8AF39026302E80007FF852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8AF39526302E80007FF852 /* tuneZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuneZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8AF39926302E80007FF852 /* tuneZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuneZTests.swift; sourceTree = "<group>"; };
+		4B8AF39B26302E80007FF852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8AF3A026302E80007FF852 /* tuneZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tuneZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8AF3A426302E80007FF852 /* tuneZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tuneZUITests.swift; sourceTree = "<group>"; };
+		4B8AF3A626302E80007FF852 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8AF3B526302EA1007FF852 /* iTunesConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesConnect.swift; sourceTree = "<group>"; };
+		4B951B0826308C3900038624 /* artistModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artistModel.swift; sourceTree = "<group>"; };
+		4B951B192630CEDF00038624 /* artistData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = artistData.swift; sourceTree = "<group>"; };
+		5598C3C35ED6FC87B9297602 /* Pods-tuneZTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuneZTests.debug.xcconfig"; path = "Target Support Files/Pods-tuneZTests/Pods-tuneZTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A4F833861B0193A93189487 /* Pods_tuneZ_tuneZUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuneZ_tuneZUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60B0E1AC241DB7C4EB2E3096 /* Pods-tuneZ-tuneZUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuneZ-tuneZUITests.release.xcconfig"; path = "Target Support Files/Pods-tuneZ-tuneZUITests/Pods-tuneZ-tuneZUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E20142567C5275D8831CC29 /* Pods_tuneZTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuneZTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAB6BC3811625693ED76366 /* Pods_tuneZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tuneZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB84D8CA90E0DE300CE5B6B3 /* Pods-tuneZTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tuneZTests.release.xcconfig"; path = "Target Support Files/Pods-tuneZTests/Pods-tuneZTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8AF37C26302E7F007FF852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83319B3810B9D5B41C0E100 /* Pods_tuneZ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8AF39226302E80007FF852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF818C249572DEDEC27BD09A /* Pods_tuneZTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8AF39D26302E80007FF852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				069B650EE9485EA74BA00C3E /* Pods_tuneZ_tuneZUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B2E71ED2630878F0046DD2F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4B8AF38626302E7F007FF852 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B2E71EE263087AF0046DD2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B2A9B24263210FD0073353F /* Main.storyboard */,
+				4B7491922631AD0700FC1F7D /* TableViewCell.swift */,
+				4B7491932631AD0700FC1F7D /* TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B2E71F4263087EB0046DD2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B2E71EF263087E50046DD2F /* artistManager.swift */,
+				4B951B192630CEDF00038624 /* artistData.swift */,
+				4B951B0826308C3900038624 /* artistModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B8AF37626302E7F007FF852 = {
+			isa = PBXGroup;
+			children = (
+				4B8AF3B526302EA1007FF852 /* iTunesConnect.swift */,
+				4B8AF38126302E7F007FF852 /* tuneZ */,
+				4B8AF39826302E80007FF852 /* tuneZTests */,
+				4B8AF3A326302E80007FF852 /* tuneZUITests */,
+				4B8AF38026302E7F007FF852 /* Products */,
+				8DA2884EA6D213E931923478 /* Pods */,
+				F0F674F6B10367021C12308D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B8AF38026302E7F007FF852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8AF37F26302E7F007FF852 /* tuneZ.app */,
+				4B8AF39526302E80007FF852 /* tuneZTests.xctest */,
+				4B8AF3A026302E80007FF852 /* tuneZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B8AF38126302E7F007FF852 /* tuneZ */ = {
+			isa = PBXGroup;
+			children = (
+				4B8AF38226302E7F007FF852 /* AppDelegate.swift */,
+				4B8AF38426302E7F007FF852 /* SceneDelegate.swift */,
+				4B2E71F4263087EB0046DD2F /* Model */,
+				4B2E71EE263087AF0046DD2F /* View */,
+				4B2E71ED2630878F0046DD2F /* Controller */,
+				4B8AF38B26302E80007FF852 /* Assets.xcassets */,
+				4B8AF38D26302E80007FF852 /* LaunchScreen.storyboard */,
+				4B8AF39026302E80007FF852 /* Info.plist */,
+			);
+			path = tuneZ;
+			sourceTree = "<group>";
+		};
+		4B8AF39826302E80007FF852 /* tuneZTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8AF39926302E80007FF852 /* tuneZTests.swift */,
+				4B8AF39B26302E80007FF852 /* Info.plist */,
+			);
+			path = tuneZTests;
+			sourceTree = "<group>";
+		};
+		4B8AF3A326302E80007FF852 /* tuneZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8AF3A426302E80007FF852 /* tuneZUITests.swift */,
+				4B8AF3A626302E80007FF852 /* Info.plist */,
+			);
+			path = tuneZUITests;
+			sourceTree = "<group>";
+		};
+		8DA2884EA6D213E931923478 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31FBE1348DB2D9908970BFE6 /* Pods-tuneZ.debug.xcconfig */,
+				21F943D6DC5FE86D56809631 /* Pods-tuneZ.release.xcconfig */,
+				30BAFCE35AB91263FB7CF7F9 /* Pods-tuneZ-tuneZUITests.debug.xcconfig */,
+				60B0E1AC241DB7C4EB2E3096 /* Pods-tuneZ-tuneZUITests.release.xcconfig */,
+				5598C3C35ED6FC87B9297602 /* Pods-tuneZTests.debug.xcconfig */,
+				DB84D8CA90E0DE300CE5B6B3 /* Pods-tuneZTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0F674F6B10367021C12308D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADAB6BC3811625693ED76366 /* Pods_tuneZ.framework */,
+				5A4F833861B0193A93189487 /* Pods_tuneZ_tuneZUITests.framework */,
+				8E20142567C5275D8831CC29 /* Pods_tuneZTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8AF37E26302E7F007FF852 /* tuneZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8AF3A926302E80007FF852 /* Build configuration list for PBXNativeTarget "tuneZ" */;
+			buildPhases = (
+				4B9A64672DA90FB157E6113A /* [CP] Check Pods Manifest.lock */,
+				4B8AF37B26302E7F007FF852 /* Sources */,
+				4B8AF37C26302E7F007FF852 /* Frameworks */,
+				4B8AF37D26302E7F007FF852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tuneZ;
+			productName = tuneZ;
+			productReference = 4B8AF37F26302E7F007FF852 /* tuneZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8AF39426302E80007FF852 /* tuneZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8AF3AC26302E80007FF852 /* Build configuration list for PBXNativeTarget "tuneZTests" */;
+			buildPhases = (
+				FA28BA9B0F8016C2205086A6 /* [CP] Check Pods Manifest.lock */,
+				4B8AF39126302E80007FF852 /* Sources */,
+				4B8AF39226302E80007FF852 /* Frameworks */,
+				4B8AF39326302E80007FF852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8AF39726302E80007FF852 /* PBXTargetDependency */,
+			);
+			name = tuneZTests;
+			productName = tuneZTests;
+			productReference = 4B8AF39526302E80007FF852 /* tuneZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B8AF39F26302E80007FF852 /* tuneZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8AF3AF26302E80007FF852 /* Build configuration list for PBXNativeTarget "tuneZUITests" */;
+			buildPhases = (
+				C5CAFE7DC3A93BF594A90078 /* [CP] Check Pods Manifest.lock */,
+				4B8AF39C26302E80007FF852 /* Sources */,
+				4B8AF39D26302E80007FF852 /* Frameworks */,
+				4B8AF39E26302E80007FF852 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8AF3A226302E80007FF852 /* PBXTargetDependency */,
+			);
+			name = tuneZUITests;
+			productName = tuneZUITests;
+			productReference = 4B8AF3A026302E80007FF852 /* tuneZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8AF37726302E7F007FF852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4B8AF37E26302E7F007FF852 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4B8AF39426302E80007FF852 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4B8AF37E26302E7F007FF852;
+					};
+					4B8AF39F26302E80007FF852 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 4B8AF37E26302E7F007FF852;
+					};
+				};
+			};
+			buildConfigurationList = 4B8AF37A26302E7F007FF852 /* Build configuration list for PBXProject "tuneZ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8AF37626302E7F007FF852;
+			productRefGroup = 4B8AF38026302E7F007FF852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8AF37E26302E7F007FF852 /* tuneZ */,
+				4B8AF39426302E80007FF852 /* tuneZTests */,
+				4B8AF39F26302E80007FF852 /* tuneZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8AF37D26302E7F007FF852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8AF38F26302E80007FF852 /* LaunchScreen.storyboard in Resources */,
+				4B7491952631AD0700FC1F7D /* TableViewCell.xib in Resources */,
+				4B8AF38C26302E80007FF852 /* Assets.xcassets in Resources */,
+				4B2A9B25263210FD0073353F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8AF39326302E80007FF852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8AF39E26302E80007FF852 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B9A64672DA90FB157E6113A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tuneZ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5CAFE7DC3A93BF594A90078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tuneZ-tuneZUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA28BA9B0F8016C2205086A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tuneZTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8AF37B26302E7F007FF852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8AF3B626302EA1007FF852 /* iTunesConnect.swift in Sources */,
+				4B7491942631AD0700FC1F7D /* TableViewCell.swift in Sources */,
+				4B8AF38726302E7F007FF852 /* ViewController.swift in Sources */,
+				4B951B0926308C3900038624 /* artistModel.swift in Sources */,
+				4B8AF38326302E7F007FF852 /* AppDelegate.swift in Sources */,
+				4B2E71F0263087E50046DD2F /* artistManager.swift in Sources */,
+				4B951B1A2630CEDF00038624 /* artistData.swift in Sources */,
+				4B8AF38526302E7F007FF852 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8AF39126302E80007FF852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8AF39A26302E80007FF852 /* tuneZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8AF39C26302E80007FF852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8AF3A526302E80007FF852 /* tuneZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8AF39726302E80007FF852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8AF37E26302E7F007FF852 /* tuneZ */;
+			targetProxy = 4B8AF39626302E80007FF852 /* PBXContainerItemProxy */;
+		};
+		4B8AF3A226302E80007FF852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8AF37E26302E7F007FF852 /* tuneZ */;
+			targetProxy = 4B8AF3A126302E80007FF852 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B8AF38D26302E80007FF852 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8AF38E26302E80007FF852 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8AF3A726302E80007FF852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B8AF3A826302E80007FF852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8AF3AA26302E80007FF852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FBE1348DB2D9908970BFE6 /* Pods-tuneZ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuneZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.tuneZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B8AF3AB26302E80007FF852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21F943D6DC5FE86D56809631 /* Pods-tuneZ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuneZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.tuneZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B8AF3AD26302E80007FF852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5598C3C35ED6FC87B9297602 /* Pods-tuneZTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuneZTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.tuneZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuneZ.app/tuneZ";
+			};
+			name = Debug;
+		};
+		4B8AF3AE26302E80007FF852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB84D8CA90E0DE300CE5B6B3 /* Pods-tuneZTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuneZTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.tuneZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tuneZ.app/tuneZ";
+			};
+			name = Release;
+		};
+		4B8AF3B026302E80007FF852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BAFCE35AB91263FB7CF7F9 /* Pods-tuneZ-tuneZUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuneZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.tuneZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tuneZ;
+			};
+			name = Debug;
+		};
+		4B8AF3B126302E80007FF852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B0E1AC241DB7C4EB2E3096 /* Pods-tuneZ-tuneZUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = tuneZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xyz.tuneZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tuneZ;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8AF37A26302E7F007FF852 /* Build configuration list for PBXProject "tuneZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8AF3A726302E80007FF852 /* Debug */,
+				4B8AF3A826302E80007FF852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8AF3A926302E80007FF852 /* Build configuration list for PBXNativeTarget "tuneZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8AF3AA26302E80007FF852 /* Debug */,
+				4B8AF3AB26302E80007FF852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8AF3AC26302E80007FF852 /* Build configuration list for PBXNativeTarget "tuneZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8AF3AD26302E80007FF852 /* Debug */,
+				4B8AF3AE26302E80007FF852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8AF3AF26302E80007FF852 /* Build configuration list for PBXNativeTarget "tuneZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8AF3B026302E80007FF852 /* Debug */,
+				4B8AF3B126302E80007FF852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8AF37726302E7F007FF852 /* Project object */;
+}
